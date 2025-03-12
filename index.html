@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishwarya H R - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Aishwarya H R</h1>
+        <p>BE Computer Science Student | Aspiring Software Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm a third-year Computer Science student passionate about coding and building cool projects.
+            I love solving problems and learning new technologies. My interests include web development, AI, and cloud computing.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Check out my latest project:</p>
+        
+        <!-- Latest Project (Fetched from GitHub) -->
+        <div id="latest-project-container">
+            <p>Fetching latest project...</p>
+        </div>
+
+        <!-- Static Projects -->
+        <div class="project">
+            <h3>Expense Tracker</h3>
+            <p>A web app to track daily expenses. Built with HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/18Aishwarya14/expense-tracker" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>A weather app that fetches real-time data using an API.</p>
+            <a href="https://github.com/18Aishwarya14/weather-app" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>This very website! Built with HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/18Aishwarya14/portfolio" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-laptop-code"></i>
+                <p>Python, Java</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <p>SQL, MongoDB</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-tools"></i>
+                <p>Git, GitHub</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me for collaborations or just a friendly chat!</p>
+        <div class="contact-links">
+            <a href="mailto:aishwaryax1814@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://github.com/18Aishwarya14" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
